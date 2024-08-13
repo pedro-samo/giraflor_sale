@@ -1,0 +1,15 @@
+.giraflor_sale {
+  &_header {
+    background-color: #a593ae;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+
+    img {
+      width: 250px;
+    }
+  }
+}

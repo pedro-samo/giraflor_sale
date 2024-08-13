@@ -1,0 +1,274 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.layout-canvas-g > .section {
+  margin: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 95%;
+  height: 100%;
+
+  @media only screen and (min-width: 1030px) {
+    font-size: 105%;
+  }
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+body > * {
+  line-height: 1;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="text"] {
+  font-family: "Open Sans", sans-serif;
+}
+
+// input[type="text"]:focus,
+// input[type="email"]:focus,
+// input[type="number"]:focus {
+//   outline: none !important;
+//   border: 1px solid #d9d9d9;
+// }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  color: #170553;
+  -webkit-text-fill-color: #170553;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #dfdedf #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 13px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #dfdedf;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 1030px) {
+    width: 90%;
+  }
+}
+
+.swal2-confirm.swal2-styled {
+  background-color: #000 !important;
+  color: white !important;
+
+  &:focus {
+    box-shadow: 0 0 0 3px rgb(224 224 224) !important;
+  }
+}
+
+.desktop {
+  @media only screen and (max-width: 1030px) {
+    display: none !important;
+  }
+}
+
+.mobile {
+  @media only screen and (min-width: 1030px) {
+    display: none !important;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.button {
+  background-color: #fff;
+  text-transform: uppercase;
+  border-radius: 34px;
+  max-width: 174px;
+  height: 50px;
+  border: 2px solid #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 20px auto;
+  font-size: 12px;
+  padding: 10px 39px;
+  color: #000;
+  text-align: center;
+
+  @media only screen and (max-width: 1030px) {
+    font-size: 18px;
+    max-width: 228px;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
